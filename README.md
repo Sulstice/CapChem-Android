@@ -25,3 +25,29 @@
 - [x] User has the ability to run the engine task Asynchronously or Synchronously
 - [ ] A lot of the Front-End and UI Design still needs to be developed. 
 - [ ] HTTP GET and POST requests for PubMed still need to be developed. 
+- [ ] Recognition of molecules based on their skeleton structure.
+
+### UI Design
+
+**Log In Screen & Information Screen**
+
+<p align="center">
+  <img src="https://github.com/Sulstice/CapChem-Android/blob/master/UIDesign/login_page.png" width="350"/>
+  <img src="https://github.com/Sulstice/CapChem-Android/blob/master/UIDesign/information_screen.png" width="350"/>
+</p>
+
+**Profile Page**
+
+<p align="center">
+  <img src="https://github.com/Sulstice/CapChem-Android/blob/master/UIDesign/profile_screen.png" width="350"/>
+</p>
+
+**App Landing Page**
+
+http://sulstice.github.io/ 
+
+**Acknoledgements**
+Sam Dunning: Idea of using IUPAC Name instead of Skeleton Based Molecules
+Icon Credit: 
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
