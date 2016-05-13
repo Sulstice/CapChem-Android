@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lloptions"
+        android:layout_gravity="top|center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bselectImage"
+            android:onClick="DoShowSelectImage"
+            android:text="SELECT IMAGE"
+            android:background="#FF6600"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bstartocr"
+            android:background="#FF6600"
+            android:onClick="DoStartOCR"
+            android:text="START OCR"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="right|top"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bstartcamera"
+            android:background="#FF6600"
+            android:onClick="DoTakePhoto"
+            android:text="START"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etresult"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="#a2000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="25.64" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:background="#FF6600"
+            android:text="Close"
+            android:layout_marginTop="405dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="DoCloseResult"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbocrrecognizing"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <Button
+        android:background="#FF6600"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|center"
+        />
+
+
+</FrameLayout>
