@@ -47,6 +47,7 @@
 http://sulstice.github.io/ 
 
 **Acknoledgements**
+
 Sam Dunning: Idea of using IUPAC Name instead of Skeleton Based Molecules
 Icon Credit: 
 
